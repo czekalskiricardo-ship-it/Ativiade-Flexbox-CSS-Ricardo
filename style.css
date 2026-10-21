@@ -83,18 +83,6 @@ footer {
     margin-top: 20px;
 }
 
-@media (max-width: 600px) {
-    nav {
-        flex-direction: column;
-        align-items: center;
-        gap: 12px;
-    }
-
-    .cards {
-        flex-direction: column;
-    }
-}
-
 .secao {
     background-color: #f4f4f4;
     padding: 20px;
@@ -109,3 +97,14 @@ footer {
     border-radius: 5px;
 }
 
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+}
